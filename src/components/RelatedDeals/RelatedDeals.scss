@@ -1,0 +1,181 @@
+.relatedDeals {
+    padding-top: 50px;
+
+    .wrapper {
+        margin: auto;
+
+        h2 {
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 44px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: rgba(44, 56, 74, 1);
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .list {
+
+            width: 28%;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+
+            .first {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 50px 40px;
+                margin: auto;
+            }
+
+            .second {
+                display: flex;
+                justify-content: left;
+                gap: 8px;
+
+                span {
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: rgba(7, 71, 134, 1);
+                    padding: 5px;
+                    background: rgba(242, 244, 247, 1);
+                    border-radius: 5px;
+
+                }
+            }
+
+            .third {
+                margin: auto;
+
+                h3 {
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: rgba(98, 110, 121, 1);
+
+                }
+            }
+
+            .forth {
+                p {
+                    margin-top: 0;
+                    color: rgba(98, 110, 121, 1);
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                }
+            }
+
+            .fifth {
+                display: flex;
+                gap: .5rem;
+                flex-direction: row;
+                align-items: center;
+                justify-content: left;
+
+                p {
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: rgba(92, 104, 116, 1);
+                }
+
+                span {
+                    position: relative;
+                    top: -6px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: rgba(159, 169, 179, 1);
+
+                }
+            }
+
+            .sixth {
+                button {
+                    width: 100%;
+                    background-color: rgba(27, 136, 244, 1);
+                    border: none;
+                    color: white;
+                    padding: 15px 0px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                    border-radius: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .container2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            p {
+                font-size: 32px;
+                font-weight: 400;
+                line-height: 44px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #5C6874;
+            }
+
+            div {
+                display: flex;
+
+                input {
+                    width: 348px;
+                    height: 52px;
+                    top: 2309px;
+                    left: 887px;
+                    border-radius: 12px 0px 0px 12px;
+                    border: none;
+
+                }
+
+                button {
+                    width: 97px;
+                    height: 52px;
+                    top: 2309px;
+                    left: 1235px;
+                    border-radius: 0px 12px 12px 0px;
+                    border: none;
+                    background-color: #1B88F4;
+                    cursor: pointer;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: 0.699999988079071px;
+                    text-align: center;
+                    color: #FFFFFF;
+
+                }
+            }
+        }
+    }
+}
